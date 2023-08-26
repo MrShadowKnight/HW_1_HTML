@@ -1,14 +1,16 @@
 body{
     background: #FFF;
 }
-.header{
+.header, .footer{
     width: flex;
-    height: 117px;
     flex-shrink: 0;
     background: #D22F2F;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.header{
+    height: 117px;
 }
 .header__title{
     font-style: normal;
@@ -23,13 +25,7 @@ main{
     padding: 40px 86px 74px 86px;
 }
 .footer{
-    width: flex;
     height: 159px;
-    flex-shrink: 0;
-    background: #D22F2F;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .footer__title{
     font-style: normal;
