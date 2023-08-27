@@ -10,9 +10,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-.header {
-  height: 117px;
-}
 .header__title,
 .footer__title {
   text-align: center;
@@ -21,11 +18,14 @@ body {
   color: #ffffff;
   text-transform: uppercase;
 }
-main {
-  padding: 40px 86px 74px 86px;
+.header {
+  height: 117px;
 }
 .footer {
   height: 159px;
+}
+main {
+  padding: 40px 86px 74px 86px;
 }
 .hero {
   width: 100%;
